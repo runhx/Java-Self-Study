@@ -1,5 +1,5 @@
 # Java-Self-Study
-## 自学java第一阶段--->javaFoundation
+## 自学java--->javaBasics
 
 🚀目标：掌握java的基本语法
 
