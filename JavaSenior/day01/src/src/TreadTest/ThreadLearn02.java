@@ -23,9 +23,11 @@ import java.util.concurrent.FutureTask;
  */
 public class ThreadLearn02 {
     public static void main(String[] args) {
+        //3.创建Callable 实现类的对象
         NumThread n1= new NumThread();
+        //4.将此Callable 实现类的对象作为参数传递到 FutureTask 构造器当中, 创建FutureTask的对象
         FutureTask futureTask = new FutureTask(n1);
-
+        //5.将FutureTask类的对象,作为参数传递到Threa类的构造器中,创建Thread的对象,并start()方法调用
         new Thread(futureTask).start();
 
         try {
@@ -37,13 +39,11 @@ public class ThreadLearn02 {
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
-
-
     }
 }
-
+//1. 创建一个实现 Callable 接口的实现类
 class NumThread implements Callable {
-
+//2.实现call方法,将此线程将要执行的操作声明在call()方法中
     @Override
     public Object call() throws Exception {
         int sum = 0;
