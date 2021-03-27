@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1077157-9565-427d-89de-f620b6443b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day03/src/StringLearn/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/src/StringLearn/StringExer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/StringLearn/StringMethodTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/StringLearn/StringTeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/StringLearn/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day03/StringLearn/StringTeat.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
       <recent name="D:\IDEA_project\JavaSenior\day01\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringExer">
+  <component name="RunManager" selected="JUnit.StringMethodTest.test2">
     <configuration name="StringExer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringLearn.StringExer" />
       <module name="day03" />
@@ -72,20 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.TreadTest.ThreadPool" />
-      <module name="day01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.TreadTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day03" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +78,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="StringLearn" />
-      <option name="MAIN_CLASS_NAME" value="StringLearn.StringTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="StringLearn.StringMethodTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringMethodTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringLearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StringLearn" />
+      <option name="MAIN_CLASS_NAME" value="StringLearn.StringMethodTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringMethodTest.test2" />
+        <item itemvalue="JUnit.StringMethodTest" />
         <item itemvalue="Application.StringExer" />
         <item itemvalue="JUnit.StringTest.test3" />
         <item itemvalue="JUnit.StringTest.test2" />
-        <item itemvalue="JUnit.StringTest.test1" />
-        <item itemvalue="Application.ThreadPool" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +176,7 @@
       <workItem from="1616590897961" duration="32000" />
       <workItem from="1616652804263" duration="13906000" />
       <workItem from="1616736699732" duration="11426000" />
+      <workItem from="1616817685353" duration="4133000" />
     </task>
     <servers />
   </component>
@@ -205,25 +205,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616657717067" />
-    <state width="722" height="133" key="GridCell.Tab.0.bottom" timestamp="1616749669225">
+    <state width="1493" height="385" key="GridCell.Tab.0.bottom" timestamp="1616832351194">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="133" key="GridCell.Tab.0.bottom/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616749669225" />
+    <state width="1493" height="385" key="GridCell.Tab.0.bottom/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616832351194" />
     <state width="720" height="442" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616254971659" />
-    <state width="722" height="133" key="GridCell.Tab.0.center" timestamp="1616749669225">
+    <state width="1493" height="385" key="GridCell.Tab.0.center" timestamp="1616832351193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="133" key="GridCell.Tab.0.center/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616749669225" />
+    <state width="1493" height="385" key="GridCell.Tab.0.center/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616832351193" />
     <state width="720" height="442" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616254971658" />
-    <state width="722" height="133" key="GridCell.Tab.0.left" timestamp="1616749669224">
+    <state width="1493" height="385" key="GridCell.Tab.0.left" timestamp="1616832351190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="133" key="GridCell.Tab.0.left/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616749669224" />
+    <state width="1493" height="385" key="GridCell.Tab.0.left/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616832351190" />
     <state width="720" height="442" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616254971658" />
-    <state width="722" height="133" key="GridCell.Tab.0.right" timestamp="1616749669225">
+    <state width="1493" height="385" key="GridCell.Tab.0.right" timestamp="1616832351193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="133" key="GridCell.Tab.0.right/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616749669225" />
+    <state width="1493" height="385" key="GridCell.Tab.0.right/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616832351193" />
     <state width="720" height="442" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616254971658" />
     <state x="469" y="122" key="RollbackChangesDialog" timestamp="1616738354988">
       <screen x="0" y="0" width="1536" height="824" />
@@ -245,10 +245,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="467" y="79" width="986" height="692" key="org.intellij.images.editor.actions.BackgroundImageDialog/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616743181546" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1616679791213">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1616819110583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616679791213" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616819110583" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1616743163155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
