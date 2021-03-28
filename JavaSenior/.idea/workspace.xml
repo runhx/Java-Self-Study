@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1077157-9565-427d-89de-f620b6443b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day03/src/StringLearn/StringMethodTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/StringLearn/StringMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/StringLearn/StringMethodTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <recent name="D:\IDEA_project\JavaSenior\day01\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringMethodTest.test2">
+  <component name="RunManager" selected="JUnit.StringMethodTest.test3">
     <configuration name="StringExer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringLearn.StringExer" />
       <module name="day03" />
@@ -100,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day03" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +109,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="StringLearn" />
-      <option name="MAIN_CLASS_NAME" value="StringLearn.StringTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="StringLearn.StringMethodTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringMethodTest.test3" />
         <item itemvalue="JUnit.StringMethodTest.test2" />
         <item itemvalue="JUnit.StringMethodTest" />
         <item itemvalue="Application.StringExer" />
         <item itemvalue="JUnit.StringTest.test3" />
-        <item itemvalue="JUnit.StringTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +177,7 @@
       <workItem from="1616652804263" duration="13906000" />
       <workItem from="1616736699732" duration="11426000" />
       <workItem from="1616817685353" duration="4133000" />
+      <workItem from="1616917834864" duration="9715000" />
     </task>
     <servers />
   </component>
@@ -205,26 +206,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616657717067" />
-    <state width="1493" height="385" key="GridCell.Tab.0.bottom" timestamp="1616832351194">
+    <state width="1493" height="368" key="GridCell.Tab.0.bottom" timestamp="1616934749603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="385" key="GridCell.Tab.0.bottom/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616832351194" />
-    <state width="720" height="442" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616254971659" />
-    <state width="1493" height="385" key="GridCell.Tab.0.center" timestamp="1616832351193">
+    <state width="1493" height="368" key="GridCell.Tab.0.bottom/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616927957954" />
+    <state width="1493" height="368" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616934749603" />
+    <state width="1493" height="368" key="GridCell.Tab.0.center" timestamp="1616934749603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="385" key="GridCell.Tab.0.center/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616832351193" />
-    <state width="720" height="442" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616254971658" />
-    <state width="1493" height="385" key="GridCell.Tab.0.left" timestamp="1616832351190">
+    <state width="1493" height="368" key="GridCell.Tab.0.center/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616927957954" />
+    <state width="1493" height="368" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616934749603" />
+    <state width="1493" height="368" key="GridCell.Tab.0.left" timestamp="1616934749603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="385" key="GridCell.Tab.0.left/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616832351190" />
-    <state width="720" height="442" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616254971658" />
-    <state width="1493" height="385" key="GridCell.Tab.0.right" timestamp="1616832351193">
+    <state width="1493" height="368" key="GridCell.Tab.0.left/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616927957954" />
+    <state width="1493" height="368" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616934749603" />
+    <state width="1493" height="368" key="GridCell.Tab.0.right" timestamp="1616934749603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="385" key="GridCell.Tab.0.right/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616832351193" />
-    <state width="720" height="442" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616254971658" />
+    <state width="1493" height="368" key="GridCell.Tab.0.right/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616927957954" />
+    <state width="1493" height="368" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616934749603" />
     <state x="469" y="122" key="RollbackChangesDialog" timestamp="1616738354988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
