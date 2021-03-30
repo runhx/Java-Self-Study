@@ -104,6 +104,10 @@ public class StringMethodTest {
 
     @Test
     public void test4() {
-
+        String s1 = "苏州的苏州经贸职业技术学院";
+        String s2 = s1.replace('苏','杭');
+        String s3 = s1.replace("苏州","南京");
+        System.out.println(s2);
+        System.out.println(s3);
     }
 }
