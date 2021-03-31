@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1077157-9565-427d-89de-f620b6443b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day03/src/StringLearn/StringBUfferMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/src/StringLearn/StringBufferBuliderLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/src/StringLearn/StringTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/StringLearn/StringMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/StringLearn/StringMethodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day03/StringLearn/StringMethodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day03/StringLearn/StringMethodTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="e1077157-9565-427d-89de-f620b6443b8f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,6 +183,7 @@
       <workItem from="1616988821650" duration="5187000" />
       <workItem from="1617006844232" duration="9656000" />
       <workItem from="1617065148139" duration="2967000" />
+      <workItem from="1617181769319" duration="599000" />
     </task>
     <servers />
   </component>
