@@ -16,7 +16,8 @@ public class StringBufferBuliderLearn {
      * stringBuilder : 可变的字符序列 jdk5.0新增 线程安全的 效率高些 (如果不是多线程问题推荐选他)
      * 相同:
      * 都用char型数组存储
-     * 
+     *
+     * 三者效率排列(从高到低): string builder-> string buffer->string
      *
      * 源码分析:
      * string s1 = new string();//new char[0]
@@ -24,7 +25,7 @@ public class StringBufferBuliderLearn {
      *
      * stringBuffer sb1 = new StringBuffer();//char[] value = new char[16];底层创建了一个长度为16的数组
      * sb1.append('a');  //value[]='a';
-     * sb1.append('a');  //value[]='b';
+     * sb1.appguardend('a');  //value[]='b';
      * stringBuffer sb1 = new StringBuffer("abc");//char[] value = new char["abc".length()+16]
      *
      * StringBuffer sb2 = new StringBuffer("abc");
@@ -40,6 +41,5 @@ public class StringBufferBuliderLearn {
         StringBuffer sb1 = new StringBuffer("abc");
         sb1.setCharAt(0,'m');//直接更改sb1 不会有返回值
         System.out.println(sb1);
-
     }
 }
