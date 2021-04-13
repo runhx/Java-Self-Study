@@ -1,6 +1,6 @@
-package StringLearn;
+package TimeAPI;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -9,13 +9,14 @@ import java.util.Date;
 
 /**
  * JDK8之前日期和时间的API测试
- *      1.System 类中的 currentTimeMillis
- *      2.java.util.Date类
- *      3.SimpleDateFormat的使用
+ * 1.System 类中的 currentTimeMillis
+ * 2.java.util.Date类
+ * 3.SimpleDateFormat的使用
+ *
  * @author shkstart @create 2021-04-01 13:26
  */
 public class DataTimeTest {
-//1.System 类中的 currentTimeMillis
+    //1.System 类中的 currentTimeMillis
     @Test
     public void test1() {
         long time = System.currentTimeMillis();
@@ -84,22 +85,22 @@ public class DataTimeTest {
         int day0 = calendar.get(Calendar.DAY_OF_MONTH); //获取这个月的第几天
         int day1 = calendar.get(Calendar.DAY_OF_YEAR); //获取这个年的第几天
         int day2 = calendar.get(Calendar.DAY_OF_WEEK); //获取这个周的第几天
-        System.out.println("今天是这月的第"+day0+"天");
-        System.out.println("今天是这年的第"+day1+"天");
-        System.out.println("今天是这周的第"+day2+"天");
+        System.out.println("今天是这月的第" + day0 + "天");
+        System.out.println("今天是这年的第" + day1 + "天");
+        System.out.println("今天是这周的第" + day2 + "天");
 
         //set()
-        calendar.set(Calendar.DAY_OF_MONTH,22);//更改当前月份的第几天为 --> 指定值
+        calendar.set(Calendar.DAY_OF_MONTH, 22);//更改当前月份的第几天为 --> 指定值
         day0 = calendar.get(Calendar.DAY_OF_MONTH);
         System.out.println(day0);
         //add()
-        calendar.set(Calendar.DAY_OF_MONTH,22);//更改当前月份的第几天为 --> 指定值
+        calendar.set(Calendar.DAY_OF_MONTH, 22);//更改当前月份的第几天为 --> 指定值
         day0 = calendar.get(Calendar.DAY_OF_MONTH);
         System.out.println(day0);
         //getTime()
         /*calendar.getTime();
         //setTime()
-        calendar.setTime();
-*/
+        //calendar.setTime();
+         */
     }
 }
