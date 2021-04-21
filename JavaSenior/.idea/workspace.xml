@@ -2,21 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1077157-9565-427d-89de-f620b6443b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day04/DAY04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/TimeAPI/DataTimeTestJDK8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/compareTest/CompareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/compareTest/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/otherClass/SystemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/day05.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/jquery-3.6.0.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/StringLearn/DataTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day04/src/TimeAPI/DataTimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day03/StringLearn/DataTimeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day03/StringLearn/DataTimeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,6 +48,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -58,17 +65,17 @@
     <property name="settings.editor.splitter.proportion" value="0.2708102" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hx\Desktop\Java仓库\Java-Self-Study\JavaSenior\day04\src" />
+      <recent name="C:\Users\hx\Desktop\Java仓库\Java-Self-Study\JavaSenior\day04" />
+      <recent name="C:\Users\hx\Desktop\Java仓库\Java-Self-Study\JavaSenior\day05" />
+      <recent name="C:\Users\hx\Desktop\Java仓库\Java-Self-Study\JavaSenior\day04\TimeAPI" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hx\Desktop\Java仓库\Java-Self-Study\JavaSenior\day04" />
       <recent name="C:\Users\hx\Desktop\Java仓库\Java-Self-Study\JavaSenior\day01\src\src\TreadTest" />
       <recent name="D:\IDEA_project\JavaSenior\day02\src\src\Thread_safety" />
       <recent name="D:\IDEA_project\JavaSenior\day01\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hx\Desktop\Java仓库\Java-Self-Study\JavaSenior\day04" />
-      <recent name="C:\Users\hx\Desktop\Java仓库\Java-Self-Study\JavaSenior\day04\src" />
-      <recent name="C:\Users\hx\Desktop\Java仓库\Java-Self-Study\JavaSenior\day05" />
-      <recent name="C:\Users\hx\Desktop\Java仓库\Java-Self-Study\JavaSenior\day04\TimeAPI" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.SystemTest.test01">
@@ -209,6 +216,10 @@
       <workItem from="1618189064686" duration="10699000" />
       <workItem from="1618284607976" duration="1654000" />
       <workItem from="1618293999684" duration="12528000" />
+      <workItem from="1618630062643" duration="486000" />
+      <workItem from="1618742460204" duration="27000" />
+      <workItem from="1618818431934" duration="4876000" />
+      <workItem from="1618887714159" duration="406000" />
     </task>
     <servers />
   </component>
@@ -229,6 +240,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1618286208495" />
+    <state x="381" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618888079940">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="381" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1618888079940" />
     <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1618302611584">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
