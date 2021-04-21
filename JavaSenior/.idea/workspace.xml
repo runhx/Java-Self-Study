@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1077157-9565-427d-89de-f620b6443b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day04/src/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/src/annotationTest/AnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/src/annotationTest/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/src/enumerationTest/EnumMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/src/enumerationTest/SeasonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/src/enumerationTest/SeasonTest01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -61,7 +67,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
     <property name="settings.editor.splitter.proportion" value="0.2708102" />
   </component>
   <component name="RecentsManager">
@@ -78,18 +84,29 @@
       <recent name="D:\IDEA_project\JavaSenior\day01\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SystemTest.test01">
-    <configuration name="CompareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day04" />
+  <component name="RunManager" selected="Application.SeasonTest01">
+    <configuration name="SeasonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enumerationTest.SeasonTest" />
+      <module name="day05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="compareTest.*" />
+          <option name="PATTERN" value="enumerationTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="compareTest" />
-      <option name="MAIN_CLASS_NAME" value="compareTest.CompareTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeasonTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enumerationTest.SeasonTest01" />
+      <module name="day05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="enumerationTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,25 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTimeTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="day04" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TimeAPI.DataTimeTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SeasonTest01" />
+        <item itemvalue="Application.SeasonTest" />
         <item itemvalue="JUnit.SystemTest.test01" />
         <item itemvalue="JUnit.CompareTest.test03" />
         <item itemvalue="JUnit.CompareTest.test02" />
-        <item itemvalue="JUnit.CompareTest" />
-        <item itemvalue="TestNG.DataTimeTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +225,8 @@
       <workItem from="1618742460204" duration="27000" />
       <workItem from="1618818431934" duration="4876000" />
       <workItem from="1618887714159" duration="406000" />
+      <workItem from="1618973188730" duration="184000" />
+      <workItem from="1618987123911" duration="12634000" />
     </task>
     <servers />
   </component>
@@ -227,10 +234,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="70" key="#Inspections" timestamp="1618194958081">
+    <state x="361" y="70" key="#Inspections" timestamp="1618996940584">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="70" key="#Inspections/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618194958081" />
+    <state x="361" y="70" key="#Inspections/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618996940584" />
     <state x="361" y="70" key="#Notifications" timestamp="1616655288932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -240,18 +247,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1618286208495" />
+    <state x="596" y="16" key="#Tomcat_Server" timestamp="1618973338552">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="596" y="16" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1618973338552" />
     <state x="381" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618888079940">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="381" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1618888079940" />
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1618302611584">
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1618992931889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618302611584" />
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618992931889" />
     <state x="537" y="21" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1618200039612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="537" y="21" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618200039612" />
+    <state x="354" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1618987202061">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="354" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618987202061" />
     <state x="540" y="269" width="455" height="296" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1617250149844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -260,31 +275,31 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="602" y="281" width="333" height="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1616251488691" />
-    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1618285828608">
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1618973371843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618200343591" />
-    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618285828608" />
-    <state width="1493" height="336" key="GridCell.Tab.0.bottom" timestamp="1618308665687">
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618973371843" />
+    <state width="1493" height="310" key="GridCell.Tab.0.bottom" timestamp="1619017601404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="336" key="GridCell.Tab.0.bottom/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618308665687" />
-    <state width="1493" height="142" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618286265752" />
-    <state width="1493" height="336" key="GridCell.Tab.0.center" timestamp="1618308665686">
+    <state width="1493" height="310" key="GridCell.Tab.0.bottom/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618993405084" />
+    <state width="1493" height="310" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619017601404" />
+    <state width="1493" height="310" key="GridCell.Tab.0.center" timestamp="1619017601404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="336" key="GridCell.Tab.0.center/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618308665686" />
-    <state width="1493" height="142" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618286265752" />
-    <state width="1493" height="336" key="GridCell.Tab.0.left" timestamp="1618308665685">
+    <state width="1493" height="310" key="GridCell.Tab.0.center/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618993405084" />
+    <state width="1493" height="310" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619017601404" />
+    <state width="1493" height="310" key="GridCell.Tab.0.left" timestamp="1619017601403">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="336" key="GridCell.Tab.0.left/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618308665685" />
-    <state width="1493" height="142" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618286265751" />
-    <state width="1493" height="336" key="GridCell.Tab.0.right" timestamp="1618308665687">
+    <state width="1493" height="310" key="GridCell.Tab.0.left/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618993405084" />
+    <state width="1493" height="310" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619017601403" />
+    <state width="1493" height="310" key="GridCell.Tab.0.right" timestamp="1619017601404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="336" key="GridCell.Tab.0.right/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618308665687" />
-    <state width="1493" height="142" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618286265752" />
+    <state width="1493" height="310" key="GridCell.Tab.0.right/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618993405084" />
+    <state width="1493" height="310" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619017601404" />
     <state x="580" y="104" key="NewModule_or_Project.wizard" timestamp="1618285832038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -294,11 +309,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="469" y="122" key="RollbackChangesDialog/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1616738354988" />
-    <state x="514" y="63" width="916" height="708" key="SettingsEditor" timestamp="1618298502266">
+    <state x="498" y="0" width="916" height="708" key="SettingsEditor" timestamp="1618973355597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="514" y="63" width="916" height="708" key="SettingsEditor/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618298502266" />
-    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1618285837151" />
+    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1618973355597" />
     <state x="485" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1618285967171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
