@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1077157-9565-427d-89de-f620b6443b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/src/annotationTest/AnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/src/annotationTest/MyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/src/enumerationTest/EnumMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/src/enumerationTest/SeasonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/src/enumerationTest/SeasonTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +22,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="school@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="school@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="school@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="school: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -169,6 +181,24 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.2124317" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:school@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -227,6 +257,9 @@
       <workItem from="1618887714159" duration="406000" />
       <workItem from="1618973188730" duration="184000" />
       <workItem from="1618987123911" duration="12634000" />
+      <workItem from="1619796738026" duration="1312000" />
+      <workItem from="1619798412757" duration="72000" />
+      <workItem from="1620112560105" duration="62000" />
     </task>
     <servers />
   </component>
@@ -251,10 +284,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="596" y="16" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1618973338552" />
-    <state x="381" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618888079940">
+    <state x="381" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619797058440">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="381" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1618888079940" />
+    <state x="381" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1619797058440" />
     <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1618992931889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -280,26 +313,26 @@
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618200343591" />
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618973371843" />
-    <state width="1493" height="310" key="GridCell.Tab.0.bottom" timestamp="1619017601404">
+    <state width="1152" height="139" key="GridCell.Tab.0.bottom" timestamp="1620112571818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.bottom/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618993405084" />
-    <state width="1493" height="310" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619017601404" />
-    <state width="1493" height="310" key="GridCell.Tab.0.center" timestamp="1619017601404">
+    <state width="1152" height="139" key="GridCell.Tab.0.bottom/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1620112571818" />
+    <state width="1152" height="165" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619798458455" />
+    <state width="1152" height="139" key="GridCell.Tab.0.center" timestamp="1620112571818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.center/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618993405084" />
-    <state width="1493" height="310" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619017601404" />
-    <state width="1493" height="310" key="GridCell.Tab.0.left" timestamp="1619017601403">
+    <state width="1152" height="139" key="GridCell.Tab.0.center/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1620112571818" />
+    <state width="1152" height="165" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619798458455" />
+    <state width="1152" height="139" key="GridCell.Tab.0.left" timestamp="1620112571818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.left/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618993405084" />
-    <state width="1493" height="310" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619017601403" />
-    <state width="1493" height="310" key="GridCell.Tab.0.right" timestamp="1619017601404">
+    <state width="1152" height="139" key="GridCell.Tab.0.left/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1620112571818" />
+    <state width="1152" height="165" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619798458455" />
+    <state width="1152" height="139" key="GridCell.Tab.0.right" timestamp="1620112571818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.right/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1618993405084" />
-    <state width="1493" height="310" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619017601404" />
+    <state width="1152" height="139" key="GridCell.Tab.0.right/-1600.0.1600.850/0.0.1536.824@0.0.1536.824" timestamp="1620112571818" />
+    <state width="1152" height="165" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619798458455" />
     <state x="580" y="104" key="NewModule_or_Project.wizard" timestamp="1618285832038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
